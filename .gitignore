@@ -8,5 +8,3 @@
 .DS_Store
 .idea
 *.received.txt
-node_modules
-
