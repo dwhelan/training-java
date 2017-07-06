@@ -1,11 +1,8 @@
-#language: java
-language: node_js
-node_js:
-  - "7"
+language: java
 
-install: "npm install"
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
 
-script:
-  - node index.js
-  - cd katas
-  - ./gradlew check
+before_script: cd katas
