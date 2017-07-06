@@ -5,6 +5,8 @@ jdk:
 - openjdk6
 before_script: cd katas
 notifications:
-  slack: leanintuit:4TbhlQX6AdNBl5hTK0PubKnh
+  slack:
+    rooms:
+      - leanintuit:4TbhlQX6AdNBl5hTK0PubKnh#engineering_training
     on_success: always
-    on_failure: always    
+    on_failure: always
