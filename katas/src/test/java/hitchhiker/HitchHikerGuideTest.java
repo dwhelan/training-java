@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 import hitchhicker.HitchHikerGuide;
